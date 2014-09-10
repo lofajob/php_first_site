@@ -1,0 +1,222 @@
+/* CSS Document */
+
+.wrapper {
+				border:1px solid #000000;
+				border-collapse: collapse;
+}
+
+td, tr{
+				padding:0px;
+}
+
+p{ 
+				font-family: Verdana, Arial, Helvetica, sans-serifverdana;
+				font-size:12px;
+				margin: 15px;
+}
+.p2{
+				font-weight: bold; 
+				color:#F00;
+}
+label{
+				font-family: Verdana, Arial, Helvetica, sans-serifverdana;
+				font-size:12px;
+}
+.left {
+				background-color: #f6f6f6;
+				border-right: 0px solid #424242;
+				padding: 1px;
+				vertical-align:top;
+}
+
+body {
+				background-image:url(../images/bg.gif);
+}
+
+											/*Навігація*/
+
+title {
+				text-align:center;
+}
+
+p.title {
+				background-color: #A72E37;
+				color: #ffffff;
+				font-weight: bold;
+				margin: 6px;
+				padding: 5px;
+}
+
+#coolmenu{
+				border: 1px solid gray; 
+				border-bottom-width: 0;
+				width: 92%; 
+				background-color: #f6f6f6;  
+				margin:6px; 
+}
+
+* html #coolmenu{ 
+				width: 150px;				/*Ширина меню для Internet Explorer*/
+}
+
+#coolmenu a{
+				font: bold 13px Verdana; 
+				padding: 2px; 
+				padding-left: 4px;
+				display: block;
+				width: 100%; 
+				color: #000000;  
+				text-decoration: none; 		/*Підкреслення у посилань - ні*/
+				border-bottom: 1px solid gray;
+}
+
+html>body #coolmenu a{ 
+				width: auto;
+}
+
+#coolmenu a:hover{
+				background-color: #cccccc; 	/*Фон ячейки при наведенні курсору*/
+				color: #000000;  			/*Колір тексту при наведеннні курсора*/
+}
+
+
+											/*Форма підписки*/
+
+p.title2 {
+				background-color: #C4C92F;
+				color: #ffffff;
+				font-weight:bold;
+				margin:6px;
+				padding:5px;
+}
+
+.form1 {
+				font-family: Verdana;
+				font-size: 10px;
+				margin: 15px;
+}
+
+.form3 {
+				font-family: Verdana;
+				font-size: 11px;
+}
+
+.formm {
+				border: 1px solid #cccccc;
+				margin:6px;
+				width: 92%;
+}
+
+.field_name_first{
+				border: 1px #c1c1c1 solid; 
+				font-family: Verdana; 
+				font-size: 11px; 
+				width:120px; 
+				color:#424242;
+				margin-left: 15px;
+				margin-bottom:10px;
+}
+.field_email{
+				margin:0px; 
+				padding:0px; 
+				border: 1px #c1c1c1 solid; 
+				font-family: Verdana;
+				font-size: 11px; 
+				width:120px; 
+				color:#424242;
+				margin-left: 15px;
+}
+
+.SR_submitButton{
+				font-family: Verdana, sans-serif; 
+				border: 1px gray solid; 
+				font-size: 11px; 
+				width: 123px; 
+				height: 19px;   
+				background-Color: #f6f6f6; 
+				color: #424242; 
+				font-weight: bold; 
+				margin: 15px;
+				
+}
+											/*LESSONS STYLE*/
+.lesson{
+				border: 1px solid #cccccc;
+				width: 95%;
+				margin: 15px auto;
+}
+
+.lesson_title{
+				background-color: #f6f6f6;
+}
+
+.lesson_name{
+				font-weight: bold;
+				margin-top: 7px;
+				margin-bottom: 7px;	
+}
+
+.lesson_adds{
+				font-size: 11px;
+				color: #65647B;
+				margin-top: 7px;
+				margin-bottom: 7px;
+}
+
+.lesson_view_title{
+				font-size: 16px;
+				font-weight: bold;
+				color: #FF0000;
+				text-align: center;
+				margin-bottom: 7px;
+				
+}
+
+.lesson_view_adds{
+				font-size: 11px;
+				font-weight: bold;
+				color: #65647B;
+				margin-top: 7px;
+				margin-bottom: 7px;
+}
+
+											/*ARTICLES STYLE*/
+.article{
+				border: 1px solid #cccccc;
+				width: 95%;
+				margin: 15px auto;
+}
+
+.article_title{
+				background-color: #f6f6f6;
+}
+
+.article_name{
+				font-weight: bold;
+				margin-top: 7px;
+				margin-bottom: 7px;	
+}
+
+.article_adds{
+				font-size: 11px;
+				color: #65647B;
+				margin-top: 7px;
+				margin-bottom: 7px;
+}
+
+.article_view_title{
+				font-size: 16px;
+				font-weight: bold;
+				color: #FF0000;
+				text-align: center;
+				margin-bottom: 7px;
+				
+}
+
+.article_view_adds{
+				font-size: 11px;
+				font-weight: bold;
+				color: #65647B;
+				margin-top: 7px;
+				margin-bottom: 7px;
+}
